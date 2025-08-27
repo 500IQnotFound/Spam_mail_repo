@@ -27,21 +27,6 @@ Enter a message, and the program will tell you if it’s spam or not.
 
 ---
 
-## 📂 Project Structure
-
-spam-mail-classifier/
-│
-├── main.py
-├── requirements.txt
-├── README.md
-├── data/
-├── models/
-├── utils/
-└── tests/
-
-
----
-
 ## 📚 Requirements
 - Python 3.8+
 - scikit-learn
