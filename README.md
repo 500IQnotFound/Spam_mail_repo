@@ -1,28 +1,22 @@
-<p align="center">
-  <img src="https://img.icons8.com/?size=512&id=114789&format=png" width="120px" alt="spam-classifier-logo"/>
-</p>
+# Spam Mail Classifier
 
-<h2 align="center"><b> Spam Mail Classifier </b></h2>
-
-<p align="center">
-  A beginner-friendly project to classify messages as <b>Spam</b> or <b>Ham (Not Spam)</b>.
-</p>
-
-<p align="center">
-  • <a href="#requirements">Requirements</a> •
-  <a href="#features">Features</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#example">Example</a> •
-</p>
+This is a simple Python project that checks if a message is **spam** or **not spam (ham)**.  
+It uses `scikit-learn` with Naive Bayes for classification.
 
 ---
 
-<h1 id="requirements">Requirements</h1>
+## How it works
+1. Some sample messages are used for training.  
+2. The text is converted into numbers using **CountVectorizer**.  
+3. A **Naive Bayes model** is trained.  
+4. You can enter your own message, and the program will tell if it’s spam or not.  
 
-- Python 3.x  
-- [scikit-learn](https://scikit-learn.org/stable/install.html)  
+---
 
-Install with:
+## Requirements
+- Python 3  
+- scikit-learn  
+
+Install scikit-learn with:
 ```bash
 pip install scikit-learn
